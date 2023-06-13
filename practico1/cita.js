@@ -21,8 +21,8 @@
 
 let cita = 'Tres tristes tigres comen trigo en un trigal';
 let substring = 'tigres comen trigo';
-let tamañoCita = cita.length;
-console.log('El tamaño de la cita es: '+ tamañoCita);
+let tamañoDeCita = cita.length;
+console.log('El tamaño de la cita es: '+ tamañoDeCita);
 let indice = cita.indexOf(substring);
 console.log('El indice del substring es: '+ indice);
 let citaRevisada = cita.substring();
