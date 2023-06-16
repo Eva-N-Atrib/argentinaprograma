@@ -4,13 +4,13 @@ const readlineSync = require('readline-sync');
 const numero = readlineSync.question('Ingresa un numero: ');
 console.log('El número elegido es: %s', numero);
     if (numero > 0) {
-    console.log('El numero es positivo');
+    console.log('El número es positivo');
 }
     else if (numero == 0) {
-    console.log('El numero es cero');
+    console.log('El número es cero');
 }
     else {
-    console.log('El numero es negativo');
+    console.log('El número es negativo');
 }
 
 
