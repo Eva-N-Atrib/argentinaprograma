@@ -2,7 +2,7 @@
 //Si el número es negativo, muestra por consola el mensaje: "El número ingresado es inválido".
 
 const readlineSync = require('readline-sync');
-const edad = readlineSync.question('Ingresa tu edad: ');
+const edad = readlineSync.question('A continuación ingresa tu edad: ');
 console.log('Tu edad es %s', edad, 'años');
     if (edad >= 18)
     {
