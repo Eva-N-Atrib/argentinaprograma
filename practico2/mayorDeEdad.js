@@ -10,7 +10,7 @@ console.log('Tu edad es %s', edad, 'años');
     }
     else if (edad < 0)
     {
-    console.log('El número ingresado es inválido');
+    console.log('El número ingresado es inválido, intente otra vez ');
     }
     else
     {
