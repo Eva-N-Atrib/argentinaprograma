@@ -52,11 +52,11 @@
 let numAleatorio = Math.floor(Math.random() * 3);
 function obtenerJugadaComputadora(numAleatorio) {
   if (numAleatorio === 0) {
-    jugadaAleatoria = "piedra";
+    jugadaAleatoria = "Piedra";
   } else if (numAleatorio === 1) {
-    jugadaAleatoria = "papel";
+    jugadaAleatoria = "Papel";
   } else if (numAleatorio === 2) {
-    jugadaAleatoria = "tijeras";
+    jugadaAleatoria = "Tijeras";
   }
   return jugadaAleatoria;
 }
@@ -66,19 +66,19 @@ let eleccion;
 
 do {
   eleccion = readlineSync.question(
-    "Ingrese su eleccion.\n" +
-      "Las opciones disponibles son : \n" +
-      "piedra \n" +
-      "papel  \n" +
-      "tijeras \n" +
+    "A jugar! \n" +
+      "Las opciones disponibles son: \n" +
+      "Piedra \n" +
+      "Papel  \n" +
+      "Tijeras \n" +
       " "
   );
   console.clear();
-  console.log("La elección no es válida, ingrese otra respuesta.");
+  console.log("Error, intenta otra vez. ¿Piedra, Papel o Tijeras?");
 } while (
-  eleccion !== "piedra" &&
-  eleccion !== "papel" &&
-  eleccion !== "tijeras"
+  eleccion !== "Piedra" &&
+  eleccion !== "Papel" &&
+  eleccion !== "Tijeras"
 );
 {
   console.clear();
@@ -92,9 +92,9 @@ function determinarGanador(jComputadora, jUsuario) {
   if (jComputadora === jugadaUsuario) {
     return "Empate";
   } else if (
-    (jComputadora === "piedra" && jUsuario === "tijeras") ||
-    (jComputadora === "tijeras" && jUsuario === "papel") ||
-    (jComputadora === "papel" && jUsuario === "piedra")
+    (jComputadora === "Piedra" && jUsuario === "Tijeras") ||
+    (jComputadora === "Tijeras" && jUsuario === "Papel") ||
+    (jComputadora === "Papel" && jUsuario === "Piedra")
   ) {
     return "Gana la computadora";
   } else {
@@ -109,6 +109,7 @@ let resultado = determinarGanador(jugadaComputadora, jugadaUsuario);
 console.log("La computadora eligió: %s.", jugadaComputadora);
 console.log("El usuario eligió: %s.", jugadaUsuario);
 console.log("El resultado fue: %s.", resultado);
+
 
 
 
