@@ -1,9 +1,7 @@
 // PIEDRA-PAPEL-TIJERAS
-// El objetivo de este práctico es desarrollar un programa sencillo en JavaScript que permite jugar
-// al famoso juego de "Piedra, Papel o Tijeras" contra la computadora.
+// El objetivo de este práctico es desarrollar un programa sencillo en JavaScript que permite jugar al famoso juego de "Piedra, Papel o Tijeras" contra la computadora.
 // Descripción:
-// El juego de "Piedra, Papel o Tijeras" es un juego de manos en el que dos jugadores eligen entre
-// tres opciones: piedra, papel o tijeras. Las reglas son las siguientes:
+// El juego de "Piedra, Papel o Tijeras" es un juego de manos en el que dos jugadores eligen entre tres opciones: piedra, papel o tijeras. Las reglas son las siguientes:
 // - La piedra vence a las tijeras.
 // - Las tijeras vencen al papel.
 // - El papel vence a la piedra.
